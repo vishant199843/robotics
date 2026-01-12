@@ -38,13 +38,7 @@ colcon build --symlink-install
 source install/setup.bash
 ```
 
-### 4. Run Unit Tests
-```bash
-colcon test
-colcon test-result --all --verbose
-```
-
-### 5. Run the Demo
+### 4. Run the Demo
 
 #### Terminal 1: Launch RViz
 ```bash
@@ -66,7 +60,13 @@ sudo docker exec -it bicycle_robot bash
 source install/setup.bash
 ros2 action send_goal /follow_path bicycle_control_interfaces/action/FollowPath "{}"
 ```
+### 5. Run Unit Tests
+```bash
+colcon test
+colcon test-result --all --verbose
+colcon test --packages-select bicycle_control --event-handlers console_direct+   #  results with output 
 
+```
 ## Project Structure
 ```
 bicycle_robot/
