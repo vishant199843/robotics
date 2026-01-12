@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbezier_planner.a CMakeFiles/bezier_planner.dir/src/bezier_planner.cpp.o
-/usr/bin/ranlib libbezier_planner.a

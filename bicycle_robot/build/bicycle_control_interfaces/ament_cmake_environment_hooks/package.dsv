@@ -1,4 +1,0 @@
-source;share/bicycle_control_interfaces/local_setup.bash
-source;share/bicycle_control_interfaces/local_setup.dsv
-source;share/bicycle_control_interfaces/local_setup.sh
-source;share/bicycle_control_interfaces/local_setup.zsh

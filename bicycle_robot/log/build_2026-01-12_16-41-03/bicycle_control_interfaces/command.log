@@ -1,6 +1,0 @@
-Invoking command in '/workspace/build/bicycle_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/src/bicycle_control_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/install/bicycle_control_interfaces
-Invoked command in '/workspace/build/bicycle_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/src/bicycle_control_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/install/bicycle_control_interfaces
-Invoking command in '/workspace/build/bicycle_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/bicycle_control_interfaces -- -j32 -l32
-Invoked command in '/workspace/build/bicycle_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/bicycle_control_interfaces -- -j32 -l32
-Invoking command in '/workspace/build/bicycle_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/bicycle_control_interfaces
-Invoked command in '/workspace/build/bicycle_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/bicycle_control_interfaces

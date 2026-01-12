@@ -1,6 +1,0 @@
-setup.py
-bicycle_control_interfaces/__init__.py
-bicycle_control_interfaces.egg-info/PKG-INFO
-bicycle_control_interfaces.egg-info/SOURCES.txt
-bicycle_control_interfaces.egg-info/dependency_links.txt
-bicycle_control_interfaces.egg-info/top_level.txt

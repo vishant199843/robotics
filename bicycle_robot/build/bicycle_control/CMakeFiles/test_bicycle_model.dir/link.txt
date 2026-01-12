@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/test_bicycle_model.dir/test/test_bicycle_model.cpp.o -o test_bicycle_model  gtest/libgtest_main.a gtest/libgtest.a libbicycle_model.a -pthread 
