@@ -17,7 +17,7 @@ This project implements a bicycle model robot with trajectory planning and path 
 ### 1. Build Docker Image
 ```bash
 cd bicycle_robot
-docker build -t bicycle_robot:jazzy .
+sudo docker build -t bicycle_robot:jazzy .
 ```
 
 ### 2. Run Docker Container
