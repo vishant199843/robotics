@@ -1,0 +1,62 @@
+UpdateCTestConfiguration  from :/workspace/build/bicycle_control/CTestConfiguration.ini
+Parse Config file:/workspace/build/bicycle_control/CTestConfiguration.ini
+   Site: vishant-ROG-Strix-G16-G614PM-G614PM
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20260112-1641 - Experimental
+UpdateCTestConfiguration  from :/workspace/build/bicycle_control/CTestConfiguration.ini
+Parse Config file:/workspace/build/bicycle_control/CTestConfiguration.ini
+Test project /workspace/build/bicycle_control
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: test_bicycle_model
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/workspace/build/bicycle_control/test_results/bicycle_control/test_bicycle_model.gtest.xml" "--package-name" "bicycle_control" "--output-file" "/workspace/build/bicycle_control/ament_cmake_gtest/test_bicycle_model.txt" "--command" "/workspace/build/bicycle_control/test_bicycle_model" "--gtest_output=xml:/workspace/build/bicycle_control/test_results/bicycle_control/test_bicycle_model.gtest.xml"
+1: Working Directory: /workspace/build/bicycle_control
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/workspace/build/bicycle_control':
+1:  - /workspace/build/bicycle_control/test_bicycle_model --gtest_output=xml:/workspace/build/bicycle_control/test_results/bicycle_control/test_bicycle_model.gtest.xml
+1: [==========] Running 10 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 10 tests from BicycleModelTest
+1: [ RUN      ] BicycleModelTest.StraightLineMotion
+1: [       OK ] BicycleModelTest.StraightLineMotion (0 ms)
+1: [ RUN      ] BicycleModelTest.LeftTurn
+1: [       OK ] BicycleModelTest.LeftTurn (0 ms)
+1: [ RUN      ] BicycleModelTest.RightTurn
+1: [       OK ] BicycleModelTest.RightTurn (0 ms)
+1: [ RUN      ] BicycleModelTest.ZeroVelocity
+1: [       OK ] BicycleModelTest.ZeroVelocity (0 ms)
+1: [ RUN      ] BicycleModelTest.MaxSteeringAngleClamping
+1: [       OK ] BicycleModelTest.MaxSteeringAngleClamping (0 ms)
+1: [ RUN      ] BicycleModelTest.MinimumTurningRadius
+1: [       OK ] BicycleModelTest.MinimumTurningRadius (0 ms)
+1: [ RUN      ] BicycleModelTest.ThetaNormalization
+1: [       OK ] BicycleModelTest.ThetaNormalization (0 ms)
+1: [ RUN      ] BicycleModelTest.MultipleTimeSteps
+1: [       OK ] BicycleModelTest.MultipleTimeSteps (0 ms)
+1: [ RUN      ] BicycleModelTest.DifferentHeadings
+1: [       OK ] BicycleModelTest.DifferentHeadings (0 ms)
+1: [ RUN      ] BicycleModelTest.SmallTimeStep
+1: [       OK ] BicycleModelTest.SmallTimeStep (0 ms)
+1: [----------] 10 tests from BicycleModelTest (0 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 10 tests from 1 test suite ran. (0 ms total)
+1: [  PASSED  ] 10 tests.
+1: -- run_test.py: return code 0
+1: -- run_test.py: inject classname prefix into gtest result file '/workspace/build/bicycle_control/test_results/bicycle_control/test_bicycle_model.gtest.xml'
+1: -- run_test.py: verify result file '/workspace/build/bicycle_control/test_results/bicycle_control/test_bicycle_model.gtest.xml'
+1/1 Test #1: test_bicycle_model ...............   Passed    0.05 sec
+
+[0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 1
+
+Label Time Summary:
+gtest    =   0.05 sec*proc (1 test)
+
+Total Test time (real) =   0.05 sec

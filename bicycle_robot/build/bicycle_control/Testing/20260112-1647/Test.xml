@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20260112-1647-Experimental"
+	Name="vishant-ROG-Strix-G16-G614PM-G614PM"
+	Generator="ctest-3.28.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="13.3.0"
+	OSName="Linux"
+	Hostname="vishant-ROG-Strix-G16-G614PM-G614PM"
+	OSRelease="6.8.0-90-generic"
+	OSVersion="#91~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 20 15:20:45 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="97"
+	ProcessorCacheSize="1024"
+	NumberOfLogicalCPU="32"
+	NumberOfPhysicalCPU="16"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="31283"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="4990.29"
+	>
+	<Testing>
+		<StartDateTime>Jan 12 16:47 UTC</StartDateTime>
+		<StartTestTime>1768236433</StartTestTime>
+		<TestList>
+			<Test>./test_bicycle_model</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>test_bicycle_model</Name>
+			<Path>.</Path>
+			<FullName>./test_bicycle_model</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/workspace/build/bicycle_control/test_results/bicycle_control/test_bicycle_model.gtest.xml" "--package-name" "bicycle_control" "--output-file" "/workspace/build/bicycle_control/ament_cmake_gtest/test_bicycle_model.txt" "--command" "/workspace/build/bicycle_control/test_bicycle_model" "--gtest_output=xml:/workspace/build/bicycle_control/test_results/bicycle_control/test_bicycle_model.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0405113</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/workspace/build/bicycle_control/test_results/bicycle_control/test_bicycle_model.gtest.xml" "--package-name" "bicycle_control" "--output-file" "/workspace/build/bicycle_control/ament_cmake_gtest/test_bicycle_model.txt" "--command" "/workspace/build/bicycle_control/test_bicycle_model" "--gtest_output=xml:/workspace/build/bicycle_control/test_results/bicycle_control/test_bicycle_model.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/workspace/build/bicycle_control':
+ - /workspace/build/bicycle_control/test_bicycle_model --gtest_output=xml:/workspace/build/bicycle_control/test_results/bicycle_control/test_bicycle_model.gtest.xml
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from BicycleModelTest
+[ RUN      ] BicycleModelTest.StraightLineMotion
+[       OK ] BicycleModelTest.StraightLineMotion (0 ms)
+[ RUN      ] BicycleModelTest.LeftTurn
+[       OK ] BicycleModelTest.LeftTurn (0 ms)
+[ RUN      ] BicycleModelTest.RightTurn
+[       OK ] BicycleModelTest.RightTurn (0 ms)
+[ RUN      ] BicycleModelTest.ZeroVelocity
+[       OK ] BicycleModelTest.ZeroVelocity (0 ms)
+[ RUN      ] BicycleModelTest.MaxSteeringAngleClamping
+[       OK ] BicycleModelTest.MaxSteeringAngleClamping (0 ms)
+[ RUN      ] BicycleModelTest.MinimumTurningRadius
+[       OK ] BicycleModelTest.MinimumTurningRadius (0 ms)
+[ RUN      ] BicycleModelTest.ThetaNormalization
+[       OK ] BicycleModelTest.ThetaNormalization (0 ms)
+[ RUN      ] BicycleModelTest.MultipleTimeSteps
+[       OK ] BicycleModelTest.MultipleTimeSteps (0 ms)
+[ RUN      ] BicycleModelTest.DifferentHeadings
+[       OK ] BicycleModelTest.DifferentHeadings (0 ms)
+[ RUN      ] BicycleModelTest.SmallTimeStep
+[       OK ] BicycleModelTest.SmallTimeStep (0 ms)
+[----------] 10 tests from BicycleModelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 10 tests.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/workspace/build/bicycle_control/test_results/bicycle_control/test_bicycle_model.gtest.xml'
+-- run_test.py: verify result file '/workspace/build/bicycle_control/test_results/bicycle_control/test_bicycle_model.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gtest</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Jan 12 16:47 UTC</EndDateTime>
+		<EndTestTime>1768236433</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

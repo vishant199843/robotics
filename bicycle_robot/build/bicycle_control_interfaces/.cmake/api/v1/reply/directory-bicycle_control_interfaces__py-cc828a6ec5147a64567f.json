@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "bicycle_control_interfaces__py",
+		"source" : "/workspace/build/bicycle_control_interfaces/bicycle_control_interfaces__py"
+	}
+}

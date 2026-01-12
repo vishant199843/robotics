@@ -1,0 +1,94 @@
+[0.006s] Invoking command in '/workspace/build/bicycle_control': CMAKE_PREFIX_PATH=/workspace/install/bicycle_control_interfaces:/workspace/install/bicycle_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /workspace/src/bicycle_control -DCMAKE_INSTALL_PREFIX=/workspace/install/bicycle_control
+[0.043s] -- The C compiler identification is GNU 13.3.0
+[0.079s] -- The CXX compiler identification is GNU 13.3.0
+[0.091s] -- Detecting C compiler ABI info
+[0.151s] -- Detecting C compiler ABI info - done
+[0.157s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.157s] -- Detecting C compile features
+[0.157s] -- Detecting C compile features - done
+[0.164s] -- Detecting CXX compiler ABI info
+[0.234s] -- Detecting CXX compiler ABI info - done
+[0.239s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.239s] -- Detecting CXX compile features
+[0.240s] -- Detecting CXX compile features - done
+[0.242s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.332s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.400s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.428s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.438s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.450s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.462s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.516s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.518s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.580s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.592s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.608s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.658s] -- Found rclcpp_action: 28.1.13 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.687s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.709s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.727s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.762s] -- Found bicycle_control_interfaces: 0.1.0 (/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake)
+[0.780s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[0.782s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.784s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.846s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.847s] -- Found Threads: TRUE  
+[0.900s] -- Configuring done (0.9s)
+[0.917s] -- Generating done (0.0s)
+[0.921s] -- Build files have been written to: /workspace/build/bicycle_control
+[0.930s] Invoked command in '/workspace/build/bicycle_control' returned '0': CMAKE_PREFIX_PATH=/workspace/install/bicycle_control_interfaces:/workspace/install/bicycle_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /workspace/src/bicycle_control -DCMAKE_INSTALL_PREFIX=/workspace/install/bicycle_control
+[0.931s] Invoking command in '/workspace/build/bicycle_control': CMAKE_PREFIX_PATH=/workspace/install/bicycle_control_interfaces:/workspace/install/bicycle_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/bicycle_control -- -j32 -l32
+[0.971s] [  7%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m
+[0.971s] [ 21%] [32mBuilding CXX object CMakeFiles/bezier_planner.dir/src/bezier_planner.cpp.o[0m
+[0.971s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.971s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.972s] [ 35%] [32mBuilding CXX object CMakeFiles/bicycle_model.dir/src/bicycle_model.cpp.o[0m
+[1.154s] [ 42%] [32m[1mLinking CXX static library libbicycle_model.a[0m
+[1.163s] [ 50%] [32m[1mLinking CXX static library libpure_pursuit.a[0m
+[1.179s] [ 50%] Built target bicycle_model
+[1.183s] [ 57%] [32m[1mLinking CXX static library libbezier_planner.a[0m
+[1.187s] [ 57%] Built target pure_pursuit
+[1.206s] [ 57%] Built target bezier_planner
+[1.220s] [ 64%] [32mBuilding CXX object CMakeFiles/path_follower_node.dir/src/path_follower_node.cpp.o[0m
+[1.451s] [ 71%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.477s] [ 71%] Built target gtest_main
+[3.083s] [ 78%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.131s] [ 78%] Built target gtest
+[3.144s] [ 85%] [32mBuilding CXX object CMakeFiles/test_bicycle_model.dir/test/test_bicycle_model.cpp.o[0m
+[3.769s] [ 92%] [32m[1mLinking CXX executable test_bicycle_model[0m
+[3.849s] [ 92%] Built target test_bicycle_model
+[5.220s] [100%] [32m[1mLinking CXX executable path_follower_node[0m
+[5.392s] [100%] Built target path_follower_node
+[5.401s] Invoked command in '/workspace/build/bicycle_control' returned '0': CMAKE_PREFIX_PATH=/workspace/install/bicycle_control_interfaces:/workspace/install/bicycle_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/bicycle_control -- -j32 -l32
+[5.401s] Invoking command in '/workspace/build/bicycle_control': CMAKE_PREFIX_PATH=/workspace/install/bicycle_control_interfaces:/workspace/install/bicycle_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/bicycle_control
+[5.407s] -- Install configuration: ""
+[5.407s] -- Installing: /workspace/install/bicycle_control/lib/libbicycle_model.a
+[5.407s] -- Installing: /workspace/install/bicycle_control/lib/libbezier_planner.a
+[5.407s] -- Installing: /workspace/install/bicycle_control/lib/libpure_pursuit.a
+[5.407s] -- Installing: /workspace/install/bicycle_control/lib/bicycle_control/path_follower_node
+[5.410s] -- Set non-toolchain portion of runtime path of "/workspace/install/bicycle_control/lib/bicycle_control/path_follower_node" to ""
+[5.410s] -- Installing: /workspace/install/bicycle_control/include/
+[5.411s] -- Installing: /workspace/install/bicycle_control/include//bicycle_control
+[5.411s] -- Installing: /workspace/install/bicycle_control/include//bicycle_control/bicycle_model.hpp
+[5.411s] -- Installing: /workspace/install/bicycle_control/include//bicycle_control/bezier_planner.hpp
+[5.411s] -- Installing: /workspace/install/bicycle_control/include//bicycle_control/pure_pursuit.hpp
+[5.411s] -- Installing: /workspace/install/bicycle_control/share/bicycle_control/launch
+[5.411s] -- Installing: /workspace/install/bicycle_control/share/bicycle_control/launch/visualize.launch.py
+[5.411s] -- Installing: /workspace/install/bicycle_control/share/bicycle_control/rviz
+[5.411s] -- Installing: /workspace/install/bicycle_control/share/bicycle_control/rviz/config.rviz
+[5.412s] -- Installing: /workspace/install/bicycle_control/share/ament_index/resource_index/package_run_dependencies/bicycle_control
+[5.412s] -- Installing: /workspace/install/bicycle_control/share/ament_index/resource_index/parent_prefix_path/bicycle_control
+[5.412s] -- Installing: /workspace/install/bicycle_control/share/bicycle_control/environment/ament_prefix_path.sh
+[5.412s] -- Installing: /workspace/install/bicycle_control/share/bicycle_control/environment/ament_prefix_path.dsv
+[5.412s] -- Installing: /workspace/install/bicycle_control/share/bicycle_control/environment/path.sh
+[5.412s] -- Installing: /workspace/install/bicycle_control/share/bicycle_control/environment/path.dsv
+[5.412s] -- Installing: /workspace/install/bicycle_control/share/bicycle_control/local_setup.bash
+[5.412s] -- Installing: /workspace/install/bicycle_control/share/bicycle_control/local_setup.sh
+[5.413s] -- Installing: /workspace/install/bicycle_control/share/bicycle_control/local_setup.zsh
+[5.413s] -- Installing: /workspace/install/bicycle_control/share/bicycle_control/local_setup.dsv
+[5.413s] -- Installing: /workspace/install/bicycle_control/share/bicycle_control/package.dsv
+[5.413s] -- Installing: /workspace/install/bicycle_control/share/ament_index/resource_index/packages/bicycle_control
+[5.413s] -- Installing: /workspace/install/bicycle_control/share/bicycle_control/cmake/bicycle_controlConfig.cmake
+[5.413s] -- Installing: /workspace/install/bicycle_control/share/bicycle_control/cmake/bicycle_controlConfig-version.cmake
+[5.413s] -- Installing: /workspace/install/bicycle_control/share/bicycle_control/package.xml
+[5.415s] Invoked command in '/workspace/build/bicycle_control' returned '0': CMAKE_PREFIX_PATH=/workspace/install/bicycle_control_interfaces:/workspace/install/bicycle_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/bicycle_control

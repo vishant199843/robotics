@@ -1,0 +1,436 @@
+[0.000000] (-) TimerEvent: {}
+[0.000181] (bicycle_control_interfaces) JobQueued: {'identifier': 'bicycle_control_interfaces', 'dependencies': OrderedDict()}
+[0.000206] (bicycle_control) JobQueued: {'identifier': 'bicycle_control', 'dependencies': OrderedDict({'bicycle_control_interfaces': '/workspace/install/bicycle_control_interfaces'})}
+[0.000411] (bicycle_control_interfaces) JobStarted: {'identifier': 'bicycle_control_interfaces'}
+[0.006303] (bicycle_control_interfaces) JobProgress: {'identifier': 'bicycle_control_interfaces', 'progress': 'cmake'}
+[0.006574] (bicycle_control_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/workspace/src/bicycle_control_interfaces', '-DCMAKE_INSTALL_PREFIX=/workspace/install/bicycle_control_interfaces'], 'cwd': '/workspace/build/bicycle_control_interfaces', 'env': OrderedDict({'HOSTNAME': 'vishant-ROG-Strix-G16-G614PM-G614PM', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/bicycle_control_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/workspace/build', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/workspace/install/bicycle_control:/workspace/install/bicycle_control_interfaces:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/build/bicycle_control_interfaces', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/bicycle_control:/workspace/install/bicycle_control_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.044365] (bicycle_control_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.079708] (bicycle_control_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.090891] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099872] (-) TimerEvent: {}
+[0.152295] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.157773] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.157949] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.158218] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.164751] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199982] (-) TimerEvent: {}
+[0.231601] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.236991] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.237189] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.237472] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.239836] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.300058] (-) TimerEvent: {}
+[0.328811] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.395800] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.400137] (-) TimerEvent: {}
+[0.400234] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.435388] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.465022] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.467477] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Found action_msgs: 2.0.3 (/opt/ros/jazzy/share/action_msgs/cmake)\n'}
+[0.500215] (-) TimerEvent: {}
+[0.507966] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.600311] (-) TimerEvent: {}
+[0.700532] (-) TimerEvent: {}
+[0.800762] (-) TimerEvent: {}
+[0.889128] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[0.900812] (-) TimerEvent: {}
+[1.000960] (-) TimerEvent: {}
+[1.101128] (-) TimerEvent: {}
+[1.185142] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201191] (-) TimerEvent: {}
+[1.301341] (-) TimerEvent: {}
+[1.401520] (-) TimerEvent: {}
+[1.501701] (-) TimerEvent: {}
+[1.570119] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.572313] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.601762] (-) TimerEvent: {}
+[1.654577] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[1.701843] (-) TimerEvent: {}
+[1.802008] (-) TimerEvent: {}
+[1.902176] (-) TimerEvent: {}
+[1.917953] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.952477] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Configuring done (1.9s)\n'}
+[1.978388] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.985872] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/bicycle_control_interfaces\n'}
+[1.992003] (bicycle_control_interfaces) CommandEnded: {'returncode': 0}
+[1.992299] (bicycle_control_interfaces) JobProgress: {'identifier': 'bicycle_control_interfaces', 'progress': 'build'}
+[1.992762] (bicycle_control_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/build/bicycle_control_interfaces', '--', '-j32', '-l32'], 'cwd': '/workspace/build/bicycle_control_interfaces', 'env': OrderedDict({'HOSTNAME': 'vishant-ROG-Strix-G16-G614PM-G614PM', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/bicycle_control_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/workspace/build', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/workspace/install/bicycle_control:/workspace/install/bicycle_control_interfaces:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/build/bicycle_control_interfaces', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/bicycle_control:/workspace/install/bicycle_control_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.002232] (-) TimerEvent: {}
+[2.030274] (bicycle_control_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[2.036186] (bicycle_control_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_bicycle_control_interfaces\n'}
+[2.102317] (-) TimerEvent: {}
+[2.142028] (bicycle_control_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.142498] (bicycle_control_interfaces) StdoutLine: {'line': b'creating bicycle_control_interfaces.egg-info\n'}
+[2.146327] (bicycle_control_interfaces) StdoutLine: {'line': b'[  2%] Built target bicycle_control_interfaces__rosidl_generator_type_description\n'}
+[2.150211] (bicycle_control_interfaces) StdoutLine: {'line': b'writing bicycle_control_interfaces.egg-info/PKG-INFO\n'}
+[2.150330] (bicycle_control_interfaces) StdoutLine: {'line': b'writing dependency_links to bicycle_control_interfaces.egg-info/dependency_links.txt\n'}
+[2.150425] (bicycle_control_interfaces) StdoutLine: {'line': b'writing top-level names to bicycle_control_interfaces.egg-info/top_level.txt\n'}
+[2.150501] (bicycle_control_interfaces) StdoutLine: {'line': b"writing manifest file 'bicycle_control_interfaces.egg-info/SOURCES.txt'\n"}
+[2.154188] (bicycle_control_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.162386] (bicycle_control_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.173770] (bicycle_control_interfaces) StdoutLine: {'line': b"reading manifest file 'bicycle_control_interfaces.egg-info/SOURCES.txt'\n"}
+[2.174125] (bicycle_control_interfaces) StdoutLine: {'line': b"writing manifest file 'bicycle_control_interfaces.egg-info/SOURCES.txt'\n"}
+[2.193625] (bicycle_control_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_bicycle_control_interfaces_egg\n'}
+[2.202370] (-) TimerEvent: {}
+[2.302516] (-) TimerEvent: {}
+[2.385069] (bicycle_control_interfaces) StdoutLine: {'line': b'[  8%] Built target bicycle_control_interfaces__cpp\n'}
+[2.402345] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/bicycle_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bicycle_control_interfaces/action/detail/follow_path__description.c.o\x1b[0m\n'}
+[2.402489] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/bicycle_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bicycle_control_interfaces/action/detail/follow_path__functions.c.o\x1b[0m\n'}
+[2.402538] (-) TimerEvent: {}
+[2.403054] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/bicycle_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bicycle_control_interfaces/action/detail/follow_path__type_support.c.o\x1b[0m\n'}
+[2.493195] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libbicycle_control_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.502605] (-) TimerEvent: {}
+[2.518740] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 20%] Built target bicycle_control_interfaces__rosidl_generator_c\n'}
+[2.525729] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.525858] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.526416] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.527113] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.527163] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.527194] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.602665] (-) TimerEvent: {}
+[2.685977] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/bicycle_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/bicycle_control_interfaces/action/follow_path__type_support.cpp.o\x1b[0m\n'}
+[2.686703] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/bicycle_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bicycle_control_interfaces/action/follow_path__type_support.cpp.o\x1b[0m\n'}
+[2.702729] (-) TimerEvent: {}
+[2.718442] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/bicycle_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bicycle_control_interfaces/action/detail/follow_path__type_support.cpp.o\x1b[0m\n'}
+[2.728037] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libbicycle_control_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.728269] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/bicycle_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bicycle_control_interfaces/action/detail/follow_path__type_support.c.o\x1b[0m\n'}
+[2.760469] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 52%] Built target bicycle_control_interfaces__rosidl_typesupport_c\n'}
+[2.772864] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking C shared library libbicycle_control_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.785647] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/bicycle_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bicycle_control_interfaces/action/detail/dds_fastrtps/follow_path__type_support.cpp.o\x1b[0m\n'}
+[2.797086] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 58%] Built target bicycle_control_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.802797] (-) TimerEvent: {}
+[2.808131] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/bicycle_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bicycle_control_interfaces/action/detail/follow_path__type_support_c.cpp.o\x1b[0m\n'}
+[2.902898] (-) TimerEvent: {}
+[3.003126] (-) TimerEvent: {}
+[3.064897] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libbicycle_control_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.103184] (-) TimerEvent: {}
+[3.115476] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 64%] Built target bicycle_control_interfaces__rosidl_typesupport_cpp\n'}
+[3.130352] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libbicycle_control_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.145349] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libbicycle_control_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.180261] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 70%] Built target bicycle_control_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.180422] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 70%] Built target bicycle_control_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.203236] (-) TimerEvent: {}
+[3.303381] (-) TimerEvent: {}
+[3.327230] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libbicycle_control_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.377466] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 73%] Built target bicycle_control_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.392341] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 73%] Built target bicycle_control_interfaces\n'}
+[3.403440] (-) TimerEvent: {}
+[3.407000] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.503517] (-) TimerEvent: {}
+[3.603680] (-) TimerEvent: {}
+[3.703841] (-) TimerEvent: {}
+[3.768526] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 76%] Built target bicycle_control_interfaces__py\n'}
+[3.782455] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/bicycle_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/bicycle_control_interfaces/action/_follow_path_s.c.o\x1b[0m\n'}
+[3.803901] (-) TimerEvent: {}
+[3.904063] (-) TimerEvent: {}
+[3.904430] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libbicycle_control_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[3.938153] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 82%] Built target bicycle_control_interfaces__rosidl_generator_py\n'}
+[3.952677] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/bicycle_control_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/bicycle_control_interfaces/_bicycle_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.953361] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/bicycle_control_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/bicycle_control_interfaces/_bicycle_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.953905] (bicycle_control_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/bicycle_control_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/bicycle_control_interfaces/_bicycle_control_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.004167] (-) TimerEvent: {}
+[4.039454] (bicycle_control_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/bicycle_control_interfaces/bicycle_control_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.039596] (bicycle_control_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/bicycle_control_interfaces/bicycle_control_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.039658] (bicycle_control_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/bicycle_control_interfaces/bicycle_control_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.062584] (bicycle_control_interfaces) StdoutLine: {'line': b'[100%] Built target bicycle_control_interfaces_s__rosidl_typesupport_c\n'}
+[4.064308] (bicycle_control_interfaces) StdoutLine: {'line': b'[100%] Built target bicycle_control_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[4.064376] (bicycle_control_interfaces) StdoutLine: {'line': b'[100%] Built target bicycle_control_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[4.073288] (bicycle_control_interfaces) CommandEnded: {'returncode': 0}
+[4.073638] (bicycle_control_interfaces) JobProgress: {'identifier': 'bicycle_control_interfaces', 'progress': 'install'}
+[4.079359] (bicycle_control_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/build/bicycle_control_interfaces'], 'cwd': '/workspace/build/bicycle_control_interfaces', 'env': OrderedDict({'HOSTNAME': 'vishant-ROG-Strix-G16-G614PM-G614PM', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/bicycle_control_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/workspace/build', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/workspace/install/bicycle_control:/workspace/install/bicycle_control_interfaces:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/build/bicycle_control_interfaces', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/bicycle_control:/workspace/install/bicycle_control_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.085420] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.085588] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/ament_index/resource_index/rosidl_interfaces/bicycle_control_interfaces\n'}
+[4.085776] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/action/FollowPath.json\n'}
+[4.085893] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces\n'}
+[4.085999] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action\n'}
+[4.086122] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail\n'}
+[4.086164] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail/follow_path__type_support.c\n'}
+[4.086213] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail/follow_path__type_support.h\n'}
+[4.086303] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail/follow_path__functions.c\n'}
+[4.086484] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail/follow_path__functions.h\n'}
+[4.086650] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail/follow_path__description.c\n'}
+[4.086802] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail/follow_path__struct.h\n'}
+[4.086904] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/follow_path.h\n'}
+[4.086992] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/msg\n'}
+[4.087049] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.087206] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/environment/library_path.sh\n'}
+[4.087321] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/environment/library_path.dsv\n'}
+[4.087462] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/libbicycle_control_interfaces__rosidl_generator_c.so\n'}
+[4.087854] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/install/bicycle_control_interfaces/lib/libbicycle_control_interfaces__rosidl_generator_c.so" to ""\n'}
+[4.087895] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces\n'}
+[4.087936] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action\n'}
+[4.087974] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail\n'}
+[4.088015] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail/follow_path__rosidl_typesupport_fastrtps_c.h\n'}
+[4.088127] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/msg\n'}
+[4.088168] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.088282] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/libbicycle_control_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.088627] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/install/bicycle_control_interfaces/lib/libbicycle_control_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.088670] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces\n'}
+[4.088711] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action\n'}
+[4.088751] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail\n'}
+[4.088796] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail/follow_path__type_support.c\n'}
+[4.088956] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail/follow_path__rosidl_typesupport_introspection_c.h\n'}
+[4.089057] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/msg\n'}
+[4.089096] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.089214] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/libbicycle_control_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.089518] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/install/bicycle_control_interfaces/lib/libbicycle_control_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.089562] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/libbicycle_control_interfaces__rosidl_typesupport_c.so\n'}
+[4.089845] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/install/bicycle_control_interfaces/lib/libbicycle_control_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[4.089888] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces\n'}
+[4.089928] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action\n'}
+[4.089969] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail\n'}
+[4.090005] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail/follow_path__type_support.hpp\n'}
+[4.090102] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail/follow_path__traits.hpp\n'}
+[4.090223] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail/follow_path__struct.hpp\n'}
+[4.090357] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail/follow_path__builder.hpp\n'}
+[4.090463] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/follow_path.hpp\n'}
+[4.090559] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/msg\n'}
+[4.090605] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.090753] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces\n'}
+[4.090828] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action\n'}
+[4.090898] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail\n'}
+[4.090939] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail/dds_fastrtps\n'}
+[4.090972] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail/follow_path__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.091025] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/msg\n'}
+[4.091081] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.091166] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/libbicycle_control_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.091662] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/install/bicycle_control_interfaces/lib/libbicycle_control_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.091722] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces\n'}
+[4.091779] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action\n'}
+[4.091815] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail\n'}
+[4.091867] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail/follow_path__type_support.cpp\n'}
+[4.091964] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/include/bicycle_control_interfaces/bicycle_control_interfaces/action/detail/follow_path__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.092088] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/libbicycle_control_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.092529] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/install/bicycle_control_interfaces/lib/libbicycle_control_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.092575] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/libbicycle_control_interfaces__rosidl_typesupport_cpp.so\n'}
+[4.092963] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/install/bicycle_control_interfaces/lib/libbicycle_control_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[4.093022] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/environment/pythonpath.sh\n'}
+[4.093105] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/environment/pythonpath.dsv\n'}
+[4.093201] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces-0.1.0-py3.12.egg-info\n'}
+[4.093295] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces-0.1.0-py3.12.egg-info/SOURCES.txt\n'}
+[4.094137] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces-0.1.0-py3.12.egg-info/PKG-INFO\n'}
+[4.094237] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces-0.1.0-py3.12.egg-info/dependency_links.txt\n'}
+[4.094331] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces-0.1.0-py3.12.egg-info/top_level.txt\n'}
+[4.094442] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces\n'}
+[4.094506] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces/_bicycle_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.094653] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces/action\n'}
+[4.094713] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces/action/__init__.py\n'}
+[4.094809] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces/action/_follow_path_s.c\n'}
+[4.094941] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces/action/_follow_path.py\n'}
+[4.095089] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces/__init__.py\n'}
+[4.095180] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces/bicycle_control_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[4.095308] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces/_bicycle_control_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[4.095445] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces/bicycle_control_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[4.095575] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces/_bicycle_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.095719] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces/bicycle_control_interfaces_s__rosidl_typesupport_c.so\n'}
+[4.104213] (-) TimerEvent: {}
+[4.125071] (bicycle_control_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces'...\n"}
+[4.125172] (bicycle_control_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces/__init__.py'...\n"}
+[4.125274] (bicycle_control_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces/action'...\n"}
+[4.125332] (bicycle_control_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces/action/__init__.py'...\n"}
+[4.125381] (bicycle_control_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces/action/_follow_path.py'...\n"}
+[4.129161] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces/bicycle_control_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[4.129483] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces/bicycle_control_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.129669] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces/bicycle_control_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[4.129993] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces/bicycle_control_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.130128] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces/bicycle_control_interfaces_s__rosidl_typesupport_c.so\n'}
+[4.130432] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages/bicycle_control_interfaces/bicycle_control_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[4.130515] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/lib/libbicycle_control_interfaces__rosidl_generator_py.so\n'}
+[4.130796] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/install/bicycle_control_interfaces/lib/libbicycle_control_interfaces__rosidl_generator_py.so" to ""\n'}
+[4.130983] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/action/FollowPath.idl\n'}
+[4.131247] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/action/FollowPath.action\n'}
+[4.131298] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/ament_index/resource_index/package_run_dependencies/bicycle_control_interfaces\n'}
+[4.131353] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/ament_index/resource_index/parent_prefix_path/bicycle_control_interfaces\n'}
+[4.131407] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/environment/ament_prefix_path.sh\n'}
+[4.131511] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/environment/ament_prefix_path.dsv\n'}
+[4.131645] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/environment/path.sh\n'}
+[4.131774] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/environment/path.dsv\n'}
+[4.131895] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/local_setup.bash\n'}
+[4.132014] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/local_setup.sh\n'}
+[4.132138] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/local_setup.zsh\n'}
+[4.132254] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/local_setup.dsv\n'}
+[4.132370] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/package.dsv\n'}
+[4.132522] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/ament_index/resource_index/packages/bicycle_control_interfaces\n'}
+[4.132678] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/export_bicycle_control_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.132806] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/export_bicycle_control_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.132926] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/export_bicycle_control_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.133041] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/export_bicycle_control_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.133159] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/bicycle_control_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.133274] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/bicycle_control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.133393] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/bicycle_control_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.133505] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/bicycle_control_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.133629] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/export_bicycle_control_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.133759] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/export_bicycle_control_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.133876] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/export_bicycle_control_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.133994] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/bicycle_control_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.134110] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/bicycle_control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.134228] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/bicycle_control_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.134340] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/bicycle_control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.134458] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/export_bicycle_control_interfaces__rosidl_generator_pyExport.cmake\n'}
+[4.134572] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/export_bicycle_control_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.134689] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.134795] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.134904] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.135012] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.135123] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.135229] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.135337] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.135445] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/bicycle_control_interfacesConfig.cmake\n'}
+[4.135540] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake/bicycle_control_interfacesConfig-version.cmake\n'}
+[4.135657] (bicycle_control_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/package.xml\n'}
+[4.137503] (bicycle_control_interfaces) CommandEnded: {'returncode': 0}
+[4.150816] (bicycle_control_interfaces) JobEnded: {'identifier': 'bicycle_control_interfaces', 'rc': 0}
+[4.151244] (bicycle_control) JobStarted: {'identifier': 'bicycle_control'}
+[4.156628] (bicycle_control) JobProgress: {'identifier': 'bicycle_control', 'progress': 'cmake'}
+[4.157059] (bicycle_control) Command: {'cmd': ['/usr/bin/cmake', '/workspace/src/bicycle_control', '-DCMAKE_INSTALL_PREFIX=/workspace/install/bicycle_control'], 'cwd': '/workspace/build/bicycle_control', 'env': OrderedDict({'HOSTNAME': 'vishant-ROG-Strix-G16-G614PM-G614PM', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/bicycle_control_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/workspace/build', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/workspace/install/bicycle_control:/workspace/install/bicycle_control_interfaces:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/build/bicycle_control', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/bicycle_control_interfaces:/workspace/install/bicycle_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.194129] (bicycle_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[4.204278] (-) TimerEvent: {}
+[4.230105] (bicycle_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[4.241957] (bicycle_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.302089] (bicycle_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.304342] (-) TimerEvent: {}
+[4.307875] (bicycle_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.308053] (bicycle_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.308284] (bicycle_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.314814] (bicycle_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.384738] (bicycle_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.390193] (bicycle_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.390447] (bicycle_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.390778] (bicycle_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.393217] (bicycle_control) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[4.404400] (-) TimerEvent: {}
+[4.482711] (bicycle_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.504480] (-) TimerEvent: {}
+[4.550747] (bicycle_control) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[4.579421] (bicycle_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[4.589068] (bicycle_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[4.600808] (bicycle_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.604536] (-) TimerEvent: {}
+[4.613571] (bicycle_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.667125] (bicycle_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[4.669427] (bicycle_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.704630] (-) TimerEvent: {}
+[4.731514] (bicycle_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[4.743564] (bicycle_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[4.759154] (bicycle_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.804688] (-) TimerEvent: {}
+[4.808777] (bicycle_control) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.13 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[4.838600] (bicycle_control) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[4.860401] (bicycle_control) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[4.878566] (bicycle_control) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[4.904747] (-) TimerEvent: {}
+[4.913638] (bicycle_control) StdoutLine: {'line': b'-- Found bicycle_control_interfaces: 0.1.0 (/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/cmake)\n'}
+[4.931466] (bicycle_control) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)\n'}
+[4.933457] (bicycle_control) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[4.934911] (bicycle_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.997112] (bicycle_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.997865] (bicycle_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.004806] (-) TimerEvent: {}
+[5.051319] (bicycle_control) StdoutLine: {'line': b'-- Configuring done (0.9s)\n'}
+[5.067817] (bicycle_control) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[5.071957] (bicycle_control) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/bicycle_control\n'}
+[5.081405] (bicycle_control) CommandEnded: {'returncode': 0}
+[5.081804] (bicycle_control) JobProgress: {'identifier': 'bicycle_control', 'progress': 'build'}
+[5.082061] (bicycle_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/build/bicycle_control', '--', '-j32', '-l32'], 'cwd': '/workspace/build/bicycle_control', 'env': OrderedDict({'HOSTNAME': 'vishant-ROG-Strix-G16-G614PM-G614PM', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/bicycle_control_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/workspace/build', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/workspace/install/bicycle_control:/workspace/install/bicycle_control_interfaces:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/build/bicycle_control', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/bicycle_control_interfaces:/workspace/install/bicycle_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.104867] (-) TimerEvent: {}
+[5.121881] (bicycle_control) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o\x1b[0m\n'}
+[5.122256] (bicycle_control) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/bezier_planner.dir/src/bezier_planner.cpp.o\x1b[0m\n'}
+[5.122360] (bicycle_control) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[5.122555] (bicycle_control) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[5.122740] (bicycle_control) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/bicycle_model.dir/src/bicycle_model.cpp.o\x1b[0m\n'}
+[5.204974] (-) TimerEvent: {}
+[5.305242] (-) TimerEvent: {}
+[5.305414] (bicycle_control) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library libbicycle_model.a\x1b[0m\n'}
+[5.314534] (bicycle_control) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libpure_pursuit.a\x1b[0m\n'}
+[5.329902] (bicycle_control) StdoutLine: {'line': b'[ 50%] Built target bicycle_model\n'}
+[5.333967] (bicycle_control) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library libbezier_planner.a\x1b[0m\n'}
+[5.337757] (bicycle_control) StdoutLine: {'line': b'[ 57%] Built target pure_pursuit\n'}
+[5.357691] (bicycle_control) StdoutLine: {'line': b'[ 57%] Built target bezier_planner\n'}
+[5.371463] (bicycle_control) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/path_follower_node.dir/src/path_follower_node.cpp.o\x1b[0m\n'}
+[5.405321] (-) TimerEvent: {}
+[5.505537] (-) TimerEvent: {}
+[5.601622] (bicycle_control) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[5.605621] (-) TimerEvent: {}
+[5.628417] (bicycle_control) StdoutLine: {'line': b'[ 71%] Built target gtest_main\n'}
+[5.705717] (-) TimerEvent: {}
+[5.805963] (-) TimerEvent: {}
+[5.906211] (-) TimerEvent: {}
+[6.006463] (-) TimerEvent: {}
+[6.106712] (-) TimerEvent: {}
+[6.206955] (-) TimerEvent: {}
+[6.307193] (-) TimerEvent: {}
+[6.407438] (-) TimerEvent: {}
+[6.507678] (-) TimerEvent: {}
+[6.607914] (-) TimerEvent: {}
+[6.708162] (-) TimerEvent: {}
+[6.808378] (-) TimerEvent: {}
+[6.908632] (-) TimerEvent: {}
+[7.008875] (-) TimerEvent: {}
+[7.109123] (-) TimerEvent: {}
+[7.209357] (-) TimerEvent: {}
+[7.233958] (bicycle_control) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[7.281858] (bicycle_control) StdoutLine: {'line': b'[ 78%] Built target gtest\n'}
+[7.295346] (bicycle_control) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/test_bicycle_model.dir/test/test_bicycle_model.cpp.o\x1b[0m\n'}
+[7.309428] (-) TimerEvent: {}
+[7.409654] (-) TimerEvent: {}
+[7.509874] (-) TimerEvent: {}
+[7.610065] (-) TimerEvent: {}
+[7.710251] (-) TimerEvent: {}
+[7.810445] (-) TimerEvent: {}
+[7.910643] (-) TimerEvent: {}
+[7.919669] (bicycle_control) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable test_bicycle_model\x1b[0m\n'}
+[8.000548] (bicycle_control) StdoutLine: {'line': b'[ 92%] Built target test_bicycle_model\n'}
+[8.010696] (-) TimerEvent: {}
+[8.110830] (-) TimerEvent: {}
+[8.210982] (-) TimerEvent: {}
+[8.311116] (-) TimerEvent: {}
+[8.411252] (-) TimerEvent: {}
+[8.511371] (-) TimerEvent: {}
+[8.611503] (-) TimerEvent: {}
+[8.711626] (-) TimerEvent: {}
+[8.811752] (-) TimerEvent: {}
+[8.911887] (-) TimerEvent: {}
+[9.012029] (-) TimerEvent: {}
+[9.112145] (-) TimerEvent: {}
+[9.212277] (-) TimerEvent: {}
+[9.312387] (-) TimerEvent: {}
+[9.370875] (bicycle_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable path_follower_node\x1b[0m\n'}
+[9.412470] (-) TimerEvent: {}
+[9.512624] (-) TimerEvent: {}
+[9.542652] (bicycle_control) StdoutLine: {'line': b'[100%] Built target path_follower_node\n'}
+[9.551693] (bicycle_control) CommandEnded: {'returncode': 0}
+[9.552098] (bicycle_control) JobProgress: {'identifier': 'bicycle_control', 'progress': 'install'}
+[9.552353] (bicycle_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/build/bicycle_control'], 'cwd': '/workspace/build/bicycle_control', 'env': OrderedDict({'HOSTNAME': 'vishant-ROG-Strix-G16-G614PM-G614PM', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/bicycle_control_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/workspace/build', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/workspace/install/bicycle_control:/workspace/install/bicycle_control_interfaces:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/build/bicycle_control', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/bicycle_control_interfaces:/workspace/install/bicycle_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.557785] (bicycle_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.557901] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/lib/libbicycle_model.a\n'}
+[9.558036] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/lib/libbezier_planner.a\n'}
+[9.558191] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/lib/libpure_pursuit.a\n'}
+[9.558341] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/lib/bicycle_control/path_follower_node\n'}
+[9.561577] (bicycle_control) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/install/bicycle_control/lib/bicycle_control/path_follower_node" to ""\n'}
+[9.561703] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/include/\n'}
+[9.561762] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/include//bicycle_control\n'}
+[9.561808] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/include//bicycle_control/bicycle_model.hpp\n'}
+[9.561933] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/include//bicycle_control/bezier_planner.hpp\n'}
+[9.562058] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/include//bicycle_control/pure_pursuit.hpp\n'}
+[9.562199] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/share/bicycle_control/launch\n'}
+[9.562311] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/share/bicycle_control/launch/visualize.launch.py\n'}
+[9.562445] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/share/bicycle_control/rviz\n'}
+[9.562512] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/share/bicycle_control/rviz/config.rviz\n'}
+[9.562752] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/share/ament_index/resource_index/package_run_dependencies/bicycle_control\n'}
+[9.562921] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/share/ament_index/resource_index/parent_prefix_path/bicycle_control\n'}
+[9.563066] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/share/bicycle_control/environment/ament_prefix_path.sh\n'}
+[9.563180] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/share/bicycle_control/environment/ament_prefix_path.dsv\n'}
+[9.563300] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/share/bicycle_control/environment/path.sh\n'}
+[9.563412] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/share/bicycle_control/environment/path.dsv\n'}
+[9.563514] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/share/bicycle_control/local_setup.bash\n'}
+[9.563614] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/share/bicycle_control/local_setup.sh\n'}
+[9.563730] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/share/bicycle_control/local_setup.zsh\n'}
+[9.563829] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/share/bicycle_control/local_setup.dsv\n'}
+[9.563929] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/share/bicycle_control/package.dsv\n'}
+[9.564058] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/share/ament_index/resource_index/packages/bicycle_control\n'}
+[9.564189] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/share/bicycle_control/cmake/bicycle_controlConfig.cmake\n'}
+[9.564277] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/share/bicycle_control/cmake/bicycle_controlConfig-version.cmake\n'}
+[9.564378] (bicycle_control) StdoutLine: {'line': b'-- Installing: /workspace/install/bicycle_control/share/bicycle_control/package.xml\n'}
+[9.566055] (bicycle_control) CommandEnded: {'returncode': 0}
+[9.572491] (bicycle_control) JobEnded: {'identifier': 'bicycle_control', 'rc': 0}
+[9.572837] (-) EventReactorShutdown: {}

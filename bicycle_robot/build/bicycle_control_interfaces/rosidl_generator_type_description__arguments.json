@@ -1,0 +1,14 @@
+{
+  "package_name": "bicycle_control_interfaces",
+  "output_dir": "/workspace/build/bicycle_control_interfaces/rosidl_generator_type_description/bicycle_control_interfaces",
+  "idl_tuples": [
+    "/workspace/build/bicycle_control_interfaces/rosidl_adapter/bicycle_control_interfaces:action/FollowPath.idl"
+  ],
+  "include_paths": [
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs"
+  ]
+}

@@ -1,0 +1,257 @@
+[0.058s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.059s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7df05f34c140>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7df05f4f5ee0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7df05f4f5ee0>>, mixin_verb=('build',))
+[0.081s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.082s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.082s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.082s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.082s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspace'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extension 'ignore_ament_install'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extensions ['colcon_pkg']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extension 'colcon_pkg'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extensions ['colcon_meta']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extension 'colcon_meta'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extensions ['ros']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extension 'ros'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extensions ['cmake', 'python']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extension 'cmake'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extension 'python'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extensions ['python_setup_py']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing) by extension 'python_setup_py'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extension 'ignore_ament_install'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extensions ['colcon_pkg']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extension 'colcon_pkg'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extensions ['colcon_meta']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extension 'colcon_meta'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extensions ['ros']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extension 'ros'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extensions ['cmake', 'python']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extension 'cmake'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extension 'python'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extensions ['python_setup_py']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(Testing/Temporary) by extension 'python_setup_py'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/bicycle_control) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/bicycle_control) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/bicycle_control) by extension 'ignore_ament_install'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/bicycle_control) by extensions ['colcon_pkg']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/bicycle_control) by extension 'colcon_pkg'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/bicycle_control) by extensions ['colcon_meta']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/bicycle_control) by extension 'colcon_meta'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/bicycle_control) by extensions ['ros']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/bicycle_control) by extension 'ros'
+[0.099s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bicycle_control' with type 'ros.ament_cmake' and name 'bicycle_control'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/bicycle_control_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/bicycle_control_interfaces) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/bicycle_control_interfaces) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/bicycle_control_interfaces) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/bicycle_control_interfaces) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/bicycle_control_interfaces) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/bicycle_control_interfaces) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/bicycle_control_interfaces) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/bicycle_control_interfaces) by extension 'ros'
+[0.100s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bicycle_control_interfaces' with type 'ros.ament_cmake' and name 'bicycle_control_interfaces'
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.110s] Level 5:colcon.colcon_core.verb:set package 'bicycle_control_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.110s] Level 5:colcon.colcon_core.verb:set package 'bicycle_control_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.110s] Level 5:colcon.colcon_core.verb:set package 'bicycle_control_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.110s] Level 5:colcon.colcon_core.verb:set package 'bicycle_control_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.110s] Level 5:colcon.colcon_core.verb:set package 'bicycle_control_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.110s] Level 5:colcon.colcon_core.verb:set package 'bicycle_control_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.110s] Level 5:colcon.colcon_core.verb:set package 'bicycle_control_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.110s] Level 5:colcon.colcon_core.verb:set package 'bicycle_control_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.110s] Level 5:colcon.colcon_core.verb:set package 'bicycle_control_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.110s] DEBUG:colcon.colcon_core.verb:Building package 'bicycle_control_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/bicycle_control_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/bicycle_control_interfaces', 'merge_install': False, 'path': '/workspace/src/bicycle_control_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.110s] Level 5:colcon.colcon_core.verb:set package 'bicycle_control' build argument 'cmake_args' from command line to 'None'
+[0.110s] Level 5:colcon.colcon_core.verb:set package 'bicycle_control' build argument 'cmake_target' from command line to 'None'
+[0.110s] Level 5:colcon.colcon_core.verb:set package 'bicycle_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.110s] Level 5:colcon.colcon_core.verb:set package 'bicycle_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.110s] Level 5:colcon.colcon_core.verb:set package 'bicycle_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.110s] Level 5:colcon.colcon_core.verb:set package 'bicycle_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.110s] Level 5:colcon.colcon_core.verb:set package 'bicycle_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.110s] Level 5:colcon.colcon_core.verb:set package 'bicycle_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.110s] Level 5:colcon.colcon_core.verb:set package 'bicycle_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.110s] DEBUG:colcon.colcon_core.verb:Building package 'bicycle_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/bicycle_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/bicycle_control', 'merge_install': False, 'path': '/workspace/src/bicycle_control', 'symlink_install': False, 'test_result_base': None}
+[0.110s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.111s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.111s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/src/bicycle_control_interfaces' with build type 'ament_cmake'
+[0.111s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/src/bicycle_control_interfaces'
+[0.112s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.112s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.112s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.113s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/workspace/install/bicycle_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.113s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/workspace/install/bicycle_control_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.113s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/workspace/install/bicycle_control' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.113s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/workspace/install/bicycle_control_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/bicycle_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/src/bicycle_control_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/install/bicycle_control_interfaces
+[2.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/bicycle_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/src/bicycle_control_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/install/bicycle_control_interfaces
+[2.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/bicycle_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/bicycle_control_interfaces -- -j32 -l32
+[4.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/bicycle_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/bicycle_control_interfaces -- -j32 -l32
+[4.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/bicycle_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/bicycle_control_interfaces
+[4.248s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bicycle_control_interfaces)
+[4.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/bicycle_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/bicycle_control_interfaces
+[4.250s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control_interfaces' for CMake module files
+[4.250s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control_interfaces' for CMake config files
+[4.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('bicycle_control_interfaces', 'cmake_prefix_path')
+[4.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/hook/cmake_prefix_path.ps1'
+[4.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/hook/cmake_prefix_path.dsv'
+[4.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/hook/cmake_prefix_path.sh'
+[4.252s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control_interfaces/lib'
+[4.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('bicycle_control_interfaces', 'ld_library_path_lib')
+[4.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/hook/ld_library_path_lib.ps1'
+[4.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/hook/ld_library_path_lib.dsv'
+[4.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/hook/ld_library_path_lib.sh'
+[4.252s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control_interfaces/bin'
+[4.252s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control_interfaces/lib/pkgconfig/bicycle_control_interfaces.pc'
+[4.254s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages'
+[4.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('bicycle_control_interfaces', 'pythonpath')
+[4.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/hook/pythonpath.ps1'
+[4.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/hook/pythonpath.dsv'
+[4.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/hook/pythonpath.sh'
+[4.254s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control_interfaces/bin'
+[4.255s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/package.ps1'
+[4.255s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/package.dsv'
+[4.255s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/package.sh'
+[4.256s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/package.bash'
+[4.256s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/package.zsh'
+[4.256s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/bicycle_control_interfaces/share/colcon-core/packages/bicycle_control_interfaces)
+[4.256s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bicycle_control_interfaces)
+[4.257s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control_interfaces' for CMake module files
+[4.257s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control_interfaces' for CMake config files
+[4.257s] Level 1:colcon.colcon_core.shell:create_environment_hook('bicycle_control_interfaces', 'cmake_prefix_path')
+[4.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/hook/cmake_prefix_path.ps1'
+[4.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/hook/cmake_prefix_path.dsv'
+[4.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/hook/cmake_prefix_path.sh'
+[4.258s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control_interfaces/lib'
+[4.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('bicycle_control_interfaces', 'ld_library_path_lib')
+[4.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/hook/ld_library_path_lib.ps1'
+[4.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/hook/ld_library_path_lib.dsv'
+[4.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/hook/ld_library_path_lib.sh'
+[4.259s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control_interfaces/bin'
+[4.259s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control_interfaces/lib/pkgconfig/bicycle_control_interfaces.pc'
+[4.259s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control_interfaces/lib/python3.12/site-packages'
+[4.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('bicycle_control_interfaces', 'pythonpath')
+[4.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/hook/pythonpath.ps1'
+[4.259s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/hook/pythonpath.dsv'
+[4.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/hook/pythonpath.sh'
+[4.260s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control_interfaces/bin'
+[4.260s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/package.ps1'
+[4.260s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/package.dsv'
+[4.260s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/package.sh'
+[4.261s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/package.bash'
+[4.261s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/bicycle_control_interfaces/share/bicycle_control_interfaces/package.zsh'
+[4.261s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/bicycle_control_interfaces/share/colcon-core/packages/bicycle_control_interfaces)
+[4.261s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/src/bicycle_control' with build type 'ament_cmake'
+[4.261s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/src/bicycle_control'
+[4.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/bicycle_control': CMAKE_PREFIX_PATH=/workspace/install/bicycle_control_interfaces:/workspace/install/bicycle_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /workspace/src/bicycle_control -DCMAKE_INSTALL_PREFIX=/workspace/install/bicycle_control
+[5.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/bicycle_control' returned '0': CMAKE_PREFIX_PATH=/workspace/install/bicycle_control_interfaces:/workspace/install/bicycle_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /workspace/src/bicycle_control -DCMAKE_INSTALL_PREFIX=/workspace/install/bicycle_control
+[5.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/bicycle_control': CMAKE_PREFIX_PATH=/workspace/install/bicycle_control_interfaces:/workspace/install/bicycle_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/bicycle_control -- -j32 -l32
+[9.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/bicycle_control' returned '0': CMAKE_PREFIX_PATH=/workspace/install/bicycle_control_interfaces:/workspace/install/bicycle_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/bicycle_control -- -j32 -l32
+[9.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/bicycle_control': CMAKE_PREFIX_PATH=/workspace/install/bicycle_control_interfaces:/workspace/install/bicycle_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/bicycle_control
+[9.676s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bicycle_control)
+[9.677s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control' for CMake module files
+[9.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/bicycle_control' returned '0': CMAKE_PREFIX_PATH=/workspace/install/bicycle_control_interfaces:/workspace/install/bicycle_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/bicycle_control
+[9.677s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control' for CMake config files
+[9.677s] Level 1:colcon.colcon_core.shell:create_environment_hook('bicycle_control', 'cmake_prefix_path')
+[9.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/bicycle_control/share/bicycle_control/hook/cmake_prefix_path.ps1'
+[9.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/bicycle_control/share/bicycle_control/hook/cmake_prefix_path.dsv'
+[9.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/bicycle_control/share/bicycle_control/hook/cmake_prefix_path.sh'
+[9.678s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control/lib'
+[9.678s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control/bin'
+[9.678s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control/lib/pkgconfig/bicycle_control.pc'
+[9.678s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control/lib/python3.12/site-packages'
+[9.678s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control/bin'
+[9.678s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/bicycle_control/share/bicycle_control/package.ps1'
+[9.679s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/bicycle_control/share/bicycle_control/package.dsv'
+[9.679s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/bicycle_control/share/bicycle_control/package.sh'
+[9.679s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/bicycle_control/share/bicycle_control/package.bash'
+[9.679s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/bicycle_control/share/bicycle_control/package.zsh'
+[9.680s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/bicycle_control/share/colcon-core/packages/bicycle_control)
+[9.680s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bicycle_control)
+[9.680s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control' for CMake module files
+[9.680s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control' for CMake config files
+[9.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('bicycle_control', 'cmake_prefix_path')
+[9.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/bicycle_control/share/bicycle_control/hook/cmake_prefix_path.ps1'
+[9.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/bicycle_control/share/bicycle_control/hook/cmake_prefix_path.dsv'
+[9.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/bicycle_control/share/bicycle_control/hook/cmake_prefix_path.sh'
+[9.681s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control/lib'
+[9.681s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control/bin'
+[9.681s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control/lib/pkgconfig/bicycle_control.pc'
+[9.681s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control/lib/python3.12/site-packages'
+[9.682s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/bicycle_control/bin'
+[9.682s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/bicycle_control/share/bicycle_control/package.ps1'
+[9.682s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/bicycle_control/share/bicycle_control/package.dsv'
+[9.682s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/bicycle_control/share/bicycle_control/package.sh'
+[9.682s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/bicycle_control/share/bicycle_control/package.bash'
+[9.683s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/bicycle_control/share/bicycle_control/package.zsh'
+[9.683s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/bicycle_control/share/colcon-core/packages/bicycle_control)
+[9.683s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.683s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.683s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.683s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.687s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[9.687s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.687s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.687s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.689s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[9.689s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.689s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/install/local_setup.ps1'
+[9.690s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/install/_local_setup_util_ps1.py'
+[9.690s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/install/setup.ps1'
+[9.691s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/install/local_setup.sh'
+[9.691s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/install/_local_setup_util_sh.py'
+[9.691s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/install/setup.sh'
+[9.692s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/install/local_setup.bash'
+[9.692s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/install/setup.bash'
+[9.693s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/install/local_setup.zsh'
+[9.693s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/install/setup.zsh'

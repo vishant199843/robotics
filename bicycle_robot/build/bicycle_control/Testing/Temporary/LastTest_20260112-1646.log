@@ -1,0 +1,54 @@
+Start testing: Jan 12 16:46 UTC
+----------------------------------------------------------
+1/1 Testing: test_bicycle_model
+1/1 Test: test_bicycle_model
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/workspace/build/bicycle_control/test_results/bicycle_control/test_bicycle_model.gtest.xml" "--package-name" "bicycle_control" "--output-file" "/workspace/build/bicycle_control/ament_cmake_gtest/test_bicycle_model.txt" "--command" "/workspace/build/bicycle_control/test_bicycle_model" "--gtest_output=xml:/workspace/build/bicycle_control/test_results/bicycle_control/test_bicycle_model.gtest.xml"
+Directory: /workspace/build/bicycle_control
+"test_bicycle_model" start time: Jan 12 16:46 UTC
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/workspace/build/bicycle_control':
+ - /workspace/build/bicycle_control/test_bicycle_model --gtest_output=xml:/workspace/build/bicycle_control/test_results/bicycle_control/test_bicycle_model.gtest.xml
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from BicycleModelTest
+[ RUN      ] BicycleModelTest.StraightLineMotion
+[       OK ] BicycleModelTest.StraightLineMotion (0 ms)
+[ RUN      ] BicycleModelTest.LeftTurn
+[       OK ] BicycleModelTest.LeftTurn (0 ms)
+[ RUN      ] BicycleModelTest.RightTurn
+[       OK ] BicycleModelTest.RightTurn (0 ms)
+[ RUN      ] BicycleModelTest.ZeroVelocity
+[       OK ] BicycleModelTest.ZeroVelocity (0 ms)
+[ RUN      ] BicycleModelTest.MaxSteeringAngleClamping
+[       OK ] BicycleModelTest.MaxSteeringAngleClamping (0 ms)
+[ RUN      ] BicycleModelTest.MinimumTurningRadius
+[       OK ] BicycleModelTest.MinimumTurningRadius (0 ms)
+[ RUN      ] BicycleModelTest.ThetaNormalization
+[       OK ] BicycleModelTest.ThetaNormalization (0 ms)
+[ RUN      ] BicycleModelTest.MultipleTimeSteps
+[       OK ] BicycleModelTest.MultipleTimeSteps (0 ms)
+[ RUN      ] BicycleModelTest.DifferentHeadings
+[       OK ] BicycleModelTest.DifferentHeadings (0 ms)
+[ RUN      ] BicycleModelTest.SmallTimeStep
+[       OK ] BicycleModelTest.SmallTimeStep (0 ms)
+[----------] 10 tests from BicycleModelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 10 tests.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/workspace/build/bicycle_control/test_results/bicycle_control/test_bicycle_model.gtest.xml'
+-- run_test.py: verify result file '/workspace/build/bicycle_control/test_results/bicycle_control/test_bicycle_model.gtest.xml'
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"test_bicycle_model" end time: Jan 12 16:46 UTC
+"test_bicycle_model" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 12 16:46 UTC
+
+gtest =   0.04 sec*proc
+

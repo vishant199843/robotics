@@ -1,0 +1,6 @@
+{
+  "package_name": "bicycle_control_interfaces",
+  "non_idl_tuples": [
+    "/workspace/src/bicycle_control_interfaces:action/FollowPath.action"
+  ]
+}

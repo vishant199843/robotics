@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="10" failures="0" disabled="0" errors="0" time="0." timestamp="2026-01-12T16:47:13.512" name="AllTests">
+  <testsuite name="BicycleModelTest" tests="10" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2026-01-12T16:47:13.512">
+    <testcase name="StraightLineMotion" file="/workspace/src/bicycle_control/test/test_bicycle_model.cpp" line="20" status="run" result="completed" time="0." timestamp="2026-01-12T16:47:13.512" classname="bicycle_control.BicycleModelTest" />
+    <testcase name="LeftTurn" file="/workspace/src/bicycle_control/test/test_bicycle_model.cpp" line="36" status="run" result="completed" time="0." timestamp="2026-01-12T16:47:13.512" classname="bicycle_control.BicycleModelTest" />
+    <testcase name="RightTurn" file="/workspace/src/bicycle_control/test/test_bicycle_model.cpp" line="52" status="run" result="completed" time="0." timestamp="2026-01-12T16:47:13.512" classname="bicycle_control.BicycleModelTest" />
+    <testcase name="ZeroVelocity" file="/workspace/src/bicycle_control/test/test_bicycle_model.cpp" line="68" status="run" result="completed" time="0." timestamp="2026-01-12T16:47:13.512" classname="bicycle_control.BicycleModelTest" />
+    <testcase name="MaxSteeringAngleClamping" file="/workspace/src/bicycle_control/test/test_bicycle_model.cpp" line="84" status="run" result="completed" time="0." timestamp="2026-01-12T16:47:13.512" classname="bicycle_control.BicycleModelTest" />
+    <testcase name="MinimumTurningRadius" file="/workspace/src/bicycle_control/test/test_bicycle_model.cpp" line="94" status="run" result="completed" time="0." timestamp="2026-01-12T16:47:13.512" classname="bicycle_control.BicycleModelTest" />
+    <testcase name="ThetaNormalization" file="/workspace/src/bicycle_control/test/test_bicycle_model.cpp" line="104" status="run" result="completed" time="0." timestamp="2026-01-12T16:47:13.512" classname="bicycle_control.BicycleModelTest" />
+    <testcase name="MultipleTimeSteps" file="/workspace/src/bicycle_control/test/test_bicycle_model.cpp" line="119" status="run" result="completed" time="0." timestamp="2026-01-12T16:47:13.512" classname="bicycle_control.BicycleModelTest" />
+    <testcase name="DifferentHeadings" file="/workspace/src/bicycle_control/test/test_bicycle_model.cpp" line="140" status="run" result="completed" time="0." timestamp="2026-01-12T16:47:13.512" classname="bicycle_control.BicycleModelTest" />
+    <testcase name="SmallTimeStep" file="/workspace/src/bicycle_control/test/test_bicycle_model.cpp" line="163" status="run" result="completed" time="0." timestamp="2026-01-12T16:47:13.512" classname="bicycle_control.BicycleModelTest" />
+  </testsuite>
+</testsuites>
